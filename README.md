@@ -1,0 +1,3 @@
+For this project, I worked with one other team partner to create a particle filter that can follow a mars glider in my CS 4803 class. We used a Gaussian distribution as well as a random creation of certain number of particles to increase our odds of being close
+to the mars glider. Essentially, the closer the particles end up to the glider, the higher chance it will be resampled and be alive. The further away the particles are from the glider, the higher chance it will die and not be resampled. This process of resampling and 
+weighting involved using a gaussian distribution and a resampling wheel. Lastly, we fuzzed the particles to give a wider distribution in order to prevent the particles from dying too quickly. 
